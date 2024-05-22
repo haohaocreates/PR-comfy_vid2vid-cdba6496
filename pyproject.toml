@@ -1,0 +1,15 @@
+[project]
+name = "comfy_vid2vid"
+description = "A node suite for ComfyUI that allows you to load image sequence and generate new image sequence with different styles or content."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers[torch]==0.11.1", "omegaconf"]
+
+[project.urls]
+Repository = "https://github.com/sylym/comfy_vid2vid"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfy_vid2vid"
+Icon = ""
